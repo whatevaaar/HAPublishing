@@ -91,6 +91,7 @@
 			loop: true,
 			items:1,
 			margin: 30,
+			singleItem: true,
 			stagePadding: 0,
 			nav: false,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
