@@ -8542,13 +8542,14 @@ h1, h2, h3, h4, h5,
         opacity: 1;
         z-index: -1; }
       .owl-carousel.home-slider .slider-item .slider-text {
+        overflow: hidden;
         height: 750px;
         z-index: 0; }
         @media (max-width: 991.98px) {
           .owl-carousel.home-slider .slider-item .slider-text {
             text-align: center; } }
         .owl-carousel.home-slider .slider-item .slider-text .one-third {
-          width: 65%;
+          width: 100%;
           position: relative;
           z-index: -1;
           background-position: center center; }
