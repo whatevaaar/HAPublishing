@@ -1,9 +1,13 @@
 function cambiarPaginaDeTienda(numeroDePagina) {
     var listaDeProductos = document.getElementsByClassName("product");
-    const productosPorPagina
+    const productosPorPagina = 12;
     for (let i = 0 ; i < listaDeProductos.length; i++) {
-        console.log(i);
-        listaDeProductos[i].style.display = 'none';
+        if (i < (numeroDePagina * productosPorPagina) && i >= ((numeroDePagina - 1 ) * productosPorPagina) ){
+            listaDeProductos[i].style.display = 'block';
+        }
+        else{
+            listaDeProductos[i].style.display = 'none';
+        }
     }
 
     for (let i = 1; i < 6; i++){

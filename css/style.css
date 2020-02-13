@@ -8208,7 +8208,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 10px;
+    font-size: 12px;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 20px;
@@ -8520,7 +8520,7 @@ h1, h2, h3, h4, h5,
         background: #b3b3b3; }
   .owl-carousel.home-slider {
     position: relative;
-    height: 750px;
+    height: 45em;
     z-index: 0;
     background: #86d1dd; }
     .owl-carousel.home-slider .slider-item {
@@ -8543,7 +8543,7 @@ h1, h2, h3, h4, h5,
         z-index: -1; }
       .owl-carousel.home-slider .slider-item .slider-text {
         overflow: hidden;
-        height: 750px;
+        height: 45em;
         z-index: 0; }
         @media (max-width: 991.98px) {
           .owl-carousel.home-slider .slider-item .slider-text {
@@ -8628,7 +8628,7 @@ h1, h2, h3, h4, h5,
           font-size: 44px;
           color: #000000;
           line-height: 1.3;
-          font-weight: 300;
+          font-weight: bold;
           text-transform: uppercase; }
           .owl-carousel.home-slider .slider-item .slider-text h1 span {
             font-weight: 900; }
@@ -9549,7 +9549,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 2.5em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {

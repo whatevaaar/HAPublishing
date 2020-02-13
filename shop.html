@@ -86,6 +86,106 @@
     <section class="ftco-section bg-light">
         <div class="container">
             <div class="row">
+            <div class="col-md-4 col-lg-2">
+                <div class="sidebar">
+                    <div class="sidebar-box-2">
+                        <h2 class="heading">Categorías</h2>
+                        <div class="fancy-collapse-panel">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                                aria-expanded="true" aria-controls="collapseOne">Primaria</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
+                                        aria-labelledby="headingOne">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li><a href="#">Español</a></li>
+                                                <li><a href="#">Inglés</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                                href="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">Secundaria</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                        aria-labelledby="headingTwo">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li><a href="#">Español</a></li>
+                                                <li><a href="#">Inglés</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                                href="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">Preescolar</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                        aria-labelledby="headingThree">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li><a href="#">Jeans</a></li>
+                                                <li><a href="#">T-Shirt</a></li>
+                                                <li><a href="#">Jacket</a></li>
+                                                <li><a href="#">Shoes</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-box-2">
+                        <h2 class="heading">Rango de precio</h2>
+                        <form method="post" class="colorlib-form-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="guests">Desde:</label>
+                                        <div class="form-field">
+                                            <i class="icon icon-arrow-down3"></i>
+                                            <select name="people" id="people" class="form-control">
+                                                <option value="#">200</option>
+                                                <option value="#">300</option>
+                                                <option value="#">400</option>
+                                                <option value="#">1000</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="guests">Hasta:</label>
+                                        <div class="form-field">
+                                            <i class="icon icon-arrow-down3"></i>
+                                            <select name="people" id="people" class="form-control">
+                                                <option value="#">600</option>
+                                                <option value="#">800</option>
+                                                <option value="#">1000</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
                 <div class="col-md-8 col-lg-10 order-md-last">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-4 ftco-animate d-flex">
@@ -5464,130 +5564,31 @@
                                 </div>
                             </div>
                         </div>
-                    </div> <div class="row mt-5">
-                            <div class="col text-center">
-                                <div class="block-27">
-                                    <ul>
-                                        <li><a href="#">&lt;</a></li>
-                                        <li id="liNumPag1" onclick="cambiarPaginaDeTienda(1)" class="active">
-                                            <span>1</span></li>
-                                        <li id="liNumPag2" onclick="cambiarPaginaDeTienda(2)"><a href="#">2</a></li>
-                                        <li id="liNumPag3" onclick="cambiarPaginaDeTienda(3)"><a href="#">3</a></li>
-                                        <li id="liNumPag4" onclick="cambiarPaginaDeTienda(4)"><a href="#">4</a></li>
-                                        <li id="liNumPag5" onclick="cambiarPaginaDeTienda(5)"><a href="#">5</a></li>
-                                        <li id="liNumPag5" onclick="cambiarPaginaDeTienda(6)"><a href="#">6</a></li>
-                                        <li id="liNumPag5" onclick="cambiarPaginaDeTienda(7)"><a href="#">7</a></li>
-                                        <li id="liNumPag5" onclick="cambiarPaginaDeTienda(8)"><a href="#">8</a></li>
-                                        <li id="liNumPag5" onclick="cambiarPaginaDeTienda(9)"><a href="#">9</a></li>
-                                        <li id="liNumPag5" onclick="cambiarPaginaDeTienda(10)"><a href="#">10</a></li>
-                                        <li><a href="#">&gt;</a></li>
-                                    </ul>
-                                </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col text-center">
+                            <div class="block-27">
+                                <ul>
+                                    <li><a href="#">&lt;</a></li>
+                                    <li id="liNumPag1" onclick="cambiarPaginaDeTienda(1)" class="active">
+                                        <span>1</span></li>
+                                    <li id="liNumPag2" onclick="cambiarPaginaDeTienda(2)"><a href="#">2</a></li>
+                                    <li id="liNumPag3" onclick="cambiarPaginaDeTienda(3)"><a href="#">3</a></li>
+                                    <li id="liNumPag4" onclick="cambiarPaginaDeTienda(4)"><a href="#">4</a></li>
+                                    <li id="liNumPag5" onclick="cambiarPaginaDeTienda(5)"><a href="#">5</a></li>
+                                    <li id="liNumPag5" onclick="cambiarPaginaDeTienda(6)"><a href="#">6</a></li>
+                                    <li id="liNumPag5" onclick="cambiarPaginaDeTienda(7)"><a href="#">7</a></li>
+                                    <li id="liNumPag5" onclick="cambiarPaginaDeTienda(8)"><a href="#">8</a></li>
+                                    <li id="liNumPag5" onclick="cambiarPaginaDeTienda(9)"><a href="#">9</a></li>
+                                    <li id="liNumPag5" onclick="cambiarPaginaDeTienda(10)"><a href="#">10</a></li>
+                                    <li><a href="#">&gt;</a></li>
+                                </ul>
                             </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4 col-lg-2">
-                <div class="sidebar">
-                    <div class="sidebar-box-2">
-                        <h2 class="heading">Categorías</h2>
-                        <div class="fancy-collapse-panel">
-                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingOne">
-                                        <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
-                                                aria-expanded="true" aria-controls="collapseOne">Primaria</a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
-                                        aria-labelledby="headingOne">
-                                        <div class="panel-body">
-                                            <ul>
-                                                <li><a href="#">Español</a></li>
-                                                <li><a href="#">Inglés</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingTwo">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
-                                                href="#collapseTwo" aria-expanded="false"
-                                                aria-controls="collapseTwo">Secundaria</a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
-                                        aria-labelledby="headingTwo">
-                                        <div class="panel-body">
-                                            <ul>
-                                                <li><a href="#">Español</a></li>
-                                                <li><a href="#">Inglés</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingThree">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
-                                                href="#collapseThree" aria-expanded="false"
-                                                aria-controls="collapseThree">Preescolar</a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                                        aria-labelledby="headingThree">
-                                        <div class="panel-body">
-                                            <ul>
-                                                <li><a href="#">Jeans</a></li>
-                                                <li><a href="#">T-Shirt</a></li>
-                                                <li><a href="#">Jacket</a></li>
-                                                <li><a href="#">Shoes</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sidebar-box-2">
-                        <h2 class="heading">Rango de precio</h2>
-                        <form method="post" class="colorlib-form-2">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="guests">Desde:</label>
-                                        <div class="form-field">
-                                            <i class="icon icon-arrow-down3"></i>
-                                            <select name="people" id="people" class="form-control">
-                                                <option value="#">200</option>
-                                                <option value="#">300</option>
-                                                <option value="#">400</option>
-                                                <option value="#">1000</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="guests">Hasta:</label>
-                                        <div class="form-field">
-                                            <i class="icon icon-arrow-down3"></i>
-                                            <select name="people" id="people" class="form-control">
-                                                <option value="#">600</option>
-                                                <option value="#">800</option>
-                                                <option value="#">1000</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
