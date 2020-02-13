@@ -8578,7 +8578,7 @@ h1, h2, h3, h4, h5,
               left: 0;
               bottom: 0;
               right: 0;
-              width: 1200px;
+              width: 100%;
               margin: 0 auto; } }
           @media (max-width: 1199.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-forth {
@@ -8825,6 +8825,7 @@ h1, h2, h3, h4, h5,
 
 .ftco-product .owl-carousel .owl-stage-outer {
   padding-bottom: 2em;
+  width: 100%;
   position: relative; }
 
 .product {
