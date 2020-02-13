@@ -8546,7 +8546,7 @@ h1, h2, h3, h4, h5,
         z-index: 0; }
         @media (max-width: 991.98px) {
           .owl-carousel.home-slider .slider-item .slider-text {
-            text-align: center; } }
+            text-align: justify; } }
         .owl-carousel.home-slider .slider-item .slider-text .one-third {
           width: 100%;
           position: relative;
@@ -8562,7 +8562,7 @@ h1, h2, h3, h4, h5,
             opacity: 0; }
           @media (max-width: 1199.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-third {
-              width: 100%;
+              width: auto;
               z-index: 0; }
               .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
                 opacity: .3; }
