@@ -8519,6 +8519,7 @@ h1, h2, h3, h4, h5,
       .owl-carousel .owl-dots .owl-dot.active {
         background: #b3b3b3; }
   .owl-carousel.home-slider {
+    height: 100%;
     position: relative;
     z-index: 0;
     background: #86d1dd; }
@@ -8624,7 +8625,7 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item .slider-text .horizontal {
           position: relative; }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
-          font-size: 44px;
+          font-size: 2.5em;
           color: #000000;
           line-height: 1.3;
           font-weight: bold;
@@ -8825,7 +8826,6 @@ h1, h2, h3, h4, h5,
 
 .ftco-product .owl-carousel .owl-stage-outer {
   padding-bottom: 2em;
-  width: 100%;
   position: relative; }
 
 .product {
