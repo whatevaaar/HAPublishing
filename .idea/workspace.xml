@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="061dd00b-78ce-47ca-a896-8a458da7156d" name="Default Changelist" comment="" />
+    <list default="true" id="061dd00b-78ce-47ca-a896-8a458da7156d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/Edugrafias-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/productos/Edugrafias-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/Edugrafias-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/productos/Edugrafias-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/Edugrafias-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/productos/Edugrafias-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ANONIMO.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/ANONIMO.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/CARLO-COLLODI.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/CARLO-COLLODI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/OSCAR-WILDE.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/OSCAR-WILDE.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/VARIOS.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/VARIOS.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Zvd9HtAAtstlo51LtmHf31KZ4I" />
   <component name="ProjectViewState">
@@ -15,6 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -35,6 +50,8 @@
       <workItem from="1585844460296" duration="5281000" />
       <workItem from="1585938172794" duration="10943000" />
       <workItem from="1586038283625" duration="3089000" />
+      <workItem from="1586297721847" duration="758000" />
+      <workItem from="1586402811641" duration="691000" />
     </task>
     <servers />
   </component>
