@@ -2,16 +2,380 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="061dd00b-78ce-47ca-a896-8a458da7156d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/iconoLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/productos/Desempenoscom-2-.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/productos/Desempenoscom-3-.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/productos/Desempenoscom-4-.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/productos/Desempenoscom-5-.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/productos/Desempenoscom-6-.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/productos/Desempenoscom-7-.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Antologia-Lect-Cisne-Blanco-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Antologia-Lect-Cisne-Blanco-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Antologia-Lect-Cisne-Blanco-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Antologia-Lect-Cisne-Blanco-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Antologia-Lect-Cisne-Blanco-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Cuaderno-T-Cisne-Blanco-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Cuaderno-T-Cisne-Blanco-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Cuaderno-T-Cisne-Blanco-7-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Cuaderno-T-Cisne-Blanco-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Cuaderno-T-Cisne-Blanco-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Desempenoscom-2-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Desempenoscom-3-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Desempenoscom-4-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Desempenoscom-5-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Desempenoscom-6-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Desempenoscom-7-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Novela-Grafica-Dorian-Grey-(8).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Novela-Grafica-Dracula-(10).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Novela-Grafica-Moby-Dick-(9).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productos/Novela-Grafica-Robin-Hood-(7).html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/Edugrafias-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/productos/Edugrafias-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/Edugrafias-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/productos/Edugrafias-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/Edugrafias-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/productos/Edugrafias-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/acerca.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/help-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/help-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/help.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/Edugrafias-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/productos/Edugrafias-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/product_placeholder_detail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/product_placeholder_detail_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/product_placeholder_square_medium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/product_placeholder_square_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/1_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/2_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/3_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/4_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/5_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/6_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/7_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/8_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/large/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/large/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/large/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/large/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/large/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/product_detail_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/product_detail_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/thumb/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products/shoes/thumb/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slides/slide_home_1_vertical.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slides/slide_home_2_vertical.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slides/slide_home_3_vertical.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slides/slide_home_4_vertical.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/ANONIMO.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/ANONIMO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/CARLO-COLLODI.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/CARLO-COLLODI.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/OSCAR-WILDE.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/OSCAR-WILDE.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/VARIOS.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/VARIOS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leave-review.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing-row-1-sidebar-left.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modal-advertise.html" beforeDir="false" afterPath="$PROJECT_DIR$/modal-advertise.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modal-newsletter.html" beforeDir="false" afterPath="$PROJECT_DIR$/modal-newsletter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-detail-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-detail-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-detail-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-detail-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/A-Clases-con-Matematicas-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/A-Clases-con-Matematicas-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/A-Clases-con-Matematicas-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/A-Clases-con-Matematicas-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/A-Clases-con-Matematicas-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/A-Clases-con-Matematicas-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/A-Clases-con-Matematicas-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/A-Clases-con-Matematicas-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/A-Clases-con-Matematicas-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/A-Clases-con-Matematicas-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ABC-de-la-Redaccion-A.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/ABC-de-la-Redaccion-A.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ABC-de-la-Redaccion-B.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/ABC-de-la-Redaccion-B.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ABC-de-la-Redaccion-C.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/ABC-de-la-Redaccion-C.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ALEJANDRO-DUMAS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ALFREDO-GOMEZ-CERDA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/AMBROSE-BIERCE-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ANONIMO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ANTOINE-SAINT-EXUPERY.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ANTOLOGIA-DE-CIENCIA-FICCION.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ANTOLOGIA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ANTON-CHEJOV.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ARTHUR-CONAN-DOYLE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ARTUR-CONAN-DOYLET.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/AUGUSTO-RODRIGUEZ.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Alicia-Barberis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Amigos-de-la-Ortografia-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Amigos-de-la-Ortografia-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Amigos-de-la-Ortografia-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Amigos-de-la-Ortografia-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Amigos-de-la-Ortografia-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Amigos-de-la-Ortografia-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Amigos-de-la-Ortografia-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Amigos-de-la-Ortografia-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Amigos-de-la-Ortografia-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Amigos-de-la-Ortografia-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Amigos-de-la-Ortografia-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Amigos-de-la-Ortografia-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Ana-Carlota-Gonzalez.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Anna-Lavatelli.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Antologia-Lect.-Cisne-Blanco-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Antologia-Lect.-Cisne-Blanco-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Antologia-Lect.-Cisne-Blanco-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Antologia-Lect.-Cisne-Blanco-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Antologia-Lect.-Cisne-Blanco-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Aramis-Quintero-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Armando-Jose-Sequera.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Autor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/BENITO-PEREZ-GALDOS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/CARLO-COLLODI.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/CHARLES-DICKENS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/CHARLES-PERRAULT.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Carlos-Carrion-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Carmela-Trujillo-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Charles-Pernault.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Children-English-SB-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Children-English-SB-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Children-English-SB-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Children-English-SB-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Children-English-SB-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Children-English-SB-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Children-English-WB-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Children-English-WB-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Children-English-WB-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Children-English-WB-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Children-English-WB-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Children-English-WB-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Ciencia-y-Tecnologia-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Ciencia-y-Tecnologia-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Ciencia-y-Tecnologia-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Ciencia-y-Tecnologia-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Ciencia-y-Tecnologia-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Ciencia-y-Tecnologia-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Ciencia-y-Tecnologia-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Ciencia-y-Tecnologia-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Colorin-Colorado-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Colorin-Colorado-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Colorin-Colorado-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Colorin-Colorado-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Colorin-Colorado-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Colorin-Colorado-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Conocimiento-del-medio-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Conocimiento-del-medio-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Conocimiento-del-medio-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Conocimiento-del-medio-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Cuaderno-T.-Cisne-Blanco-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Cuaderno-T.-Cisne-Blanco-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Cuaderno-T.-Cisne-Blanco-7-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Cuaderno-T.-Cisne-Blanco-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Cuaderno-T.-Cisne-Blanco-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Cuaderno-de-Trabajo-Leer-es-Divertido-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Cuaderno-de-Trabajo-Leer-es-Divertido-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Cuaderno-de-Trabajo-Leer-es-Divertido-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Cuaderno-de-Trabajo-Leer-es-Divertido-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Cuaderno-de-Trabajo-Leer-es-Divertido-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Cuaderno-de-Trabajo-Leer-es-Divertido-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Cuaderno-de-Trabajo-Leer-es-Divertido-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Cuaderno-de-Trabajo-Leer-es-Divertido-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Cuaderno-de-Trabajo-Leer-es-Divertido-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Cuaderno-de-Trabajo-Leer-es-Divertido-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/DANTE-ALIGHIERI.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Desempenos.com-2-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Desempenos.com-3-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Desempenos.com-4-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Desempenos.com-5-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Desempenos.com-6-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Desempenos.com-7-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dibujo-Maravilloso-Plus-1-(3deg-Kinder).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dibujo-Maravilloso-Plus-1-(3deg-Kinder).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dibujo-Maravilloso-Plus-2-(1ro).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dibujo-Maravilloso-Plus-2-(1ro).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dibujo-Maravilloso-Plus-3-(2do).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dibujo-Maravilloso-Plus-3-(2do).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dibujo-Maravilloso-Plus-4-(3ro).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dibujo-Maravilloso-Plus-4-(3ro).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dibujo-Maravilloso-Plus-5-(4to).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dibujo-Maravilloso-Plus-5-(4to).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dibujo-Maravilloso-Plus-6-(5to).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dibujo-Maravilloso-Plus-6-(5to).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dibujo-Maravilloso-Plus-7-(6to).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dibujo-Maravilloso-Plus-7-(6to).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dibujo-Maravilloso-Plus-Pre-kinder-(2degKinder).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dibujo-Maravilloso-Plus-Pre-kinder-(2degKinder).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Biologia,-Ciencia-y-Tecnologia.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Biologia,-Ciencia-y-Tecnologia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Fisica,-Ciencia-y-Tecnologia.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Fisica,-Ciencia-y-Tecnologia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Historia-.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Historia-.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Historia-Mesoamericana.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Historia-Mesoamericana.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Historia-Universal-.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Historia-Universal-.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Historia-de-Mexico-.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Historia-de-Mexico-.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Historia-del-Mundo-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Historia-del-Mundo-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Lenguaje-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Lenguaje-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Lenguaje-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Lenguaje-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Lenguaje-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Lenguaje-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Lenguaje-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Lenguaje-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Lenguaje-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Lenguaje-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Lenguaje-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Lenguaje-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Matematica-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Matematica-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Matematica-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Matematica-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Matematica-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Matematica-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Matematica-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Matematica-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Matematica-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Matematica-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Matematica-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Matematica-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-Quimica,-Ciencia-y-Tecnologia.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-Quimica,-Ciencia-y-Tecnologia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-de-Biologia-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-de-Biologia-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-de-Biologia-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-de-Biologia-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-de-Fisica-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-de-Fisica-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-de-Fisica-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-de-Fisica-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-de-Geografia-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-de-Geografia-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-de-Geografia-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-de-Geografia-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-de-Geografia-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-de-Geografia-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-de-Quimica-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-de-Quimica-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-de-Quimica-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-de-Quimica-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-del-Lenguaje-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-del-Lenguaje-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-del-Lenguaje-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-del-Lenguaje-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Dominios-del-Lenguaje-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Dominios-del-Lenguaje-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/EDGAR-ALLAN-POE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/EDMUNDO-DE-AMICIS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ENRIQUE-CARVAJAL-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ERNEST-AMADEUS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Edgar-Allan-Garcia.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Edugrafias-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Edugrafias-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Edugrafias-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Edugrafias-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Edugrafias-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Edugrafias-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Edugrafias-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Edugrafias-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Edugrafias-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Edugrafias-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Edugrafias-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Edugrafias-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Elena-Dreser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Elizabeth-Crespo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Espiral-Computacion-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Espiral-Computacion-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Espiral-Computacion-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Espiral-Computacion-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Espiral-Computacion-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Espiral-Computacion-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Espiral-Computacion-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Espiral-Computacion-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Espiral-Computacion-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Espiral-Computacion-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Espiral-Computacion-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Espiral-Computacion-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/FEDERICO-GARCIA-LORCA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/FELIX-LOPE-DE-VEGA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/FIODOR-DOSTO-IEVSKI.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/FRANCISCO-DELGADO-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/FRANCISCO-PROANO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/FRANZ-KAFKA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/FRIEDICH-NIEZTCHE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Francisco-Delgado-Santos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/GOETEHE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/GUSTAVE-FLAUBERT.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/GUSTAVO-ALDOLFO-BECQUER.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Geografia-de-Mexico-y-el-Mundo-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Geografia-de-Mexico-y-el-Mundo-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Gilberto-Rendon-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Gusti-Rosemffet-y-Lola-Casas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/H.P.LOVECRAFT.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/HANS-CHRISTIAN-ANDERSON.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/HENRIK-IBSEN.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/HERMAN-MELVILLE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/HERMANOS-GRIMM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/HERNAN-MELBILL.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/HG-WELLS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/HOMERO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/HONOREC-DE-BALZAT.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/HORACIO-QUIROGA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/J.M.-Barrie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JAIME-PENA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JAMES-JOYCE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JAMES-MATTHEW-BARRIE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JANETH-HERRERA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JEAN-WEBSTER.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JEANNE-MARIE-LEPRICE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JHOSEP-CONRAD.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JONATHA-SWIFT.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JORGE-DAVILA-VASQUEZ.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JORGE-DAVILA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JORGE-ISAACS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JOSE-ANTONIO-CAMPOS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JOSE-EUSTACIO-RIVERA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JOSE-HERNANDEZ.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JOSE-MARIA-SANCHEZ-SILVA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JUAN-LEON-MERA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/JULIO-BERNER.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Jaime-Pena-Novoa.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Je-Vole-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Je-Vole-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Je-Vole-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Je-Vole-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Je-Vole-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Je-Vole-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Jordi-Sierra-i-Fabra.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Jose-Gregorio-Bello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/KHALIL-GIBRAN.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/L.-FRANK-BAUM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/LEON-TOLSTOI.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/LEONARDO-WILD.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/LEWIS-CARROLL.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/LUCRECIA-MALDONADO-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/LUIS-A.-MARTINEZ.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/LUIS-A.-MONSALVE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/LUIS-DARIO-BERNAL.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Leer-es-Divertido-1-(Full-Color).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Leer-es-Divertido-1-(Full-Color).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Leer-es-Divertido-2-(BN).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Leer-es-Divertido-2-(BN).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Leer-es-Divertido-3-(BN).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Leer-es-Divertido-3-(BN).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Leer-es-Divertido-4-(BN).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Leer-es-Divertido-4-(BN).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Leer-es-Divertido-5-(BN).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Leer-es-Divertido-5-(BN).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Leer-es-Divertido-6-(BN).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Leer-es-Divertido-6-(BN).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Liset-Lantigua.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/MARCELO-BAEZ.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/MARK-TWAIN.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/MARY-SHELLEY.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/MIGUEL-DE-CERVANTES.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/MIGUEL-DE-UNAMUNO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/MIGUEL-RIOFRIO-SANCHEZ.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Macrokids-3-anos.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Macrokids-3-anos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Macrokids-4-anos.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Macrokids-4-anos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Macrokids-5-anos.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Macrokids-5-anos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Magdalena-Helguera.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Maravilloso-Mundo-de-Valores-2-(1ro).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Maravilloso-Mundo-de-Valores-2-(1ro).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Maravilloso-Mundo-de-Valores-3-(2do).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Maravilloso-Mundo-de-Valores-3-(2do).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Maravilloso-Mundo-de-Valores-4-(3ro).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Maravilloso-Mundo-de-Valores-4-(3ro).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Maravilloso-Mundo-de-Valores-5-(4to).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Maravilloso-Mundo-de-Valores-5-(4to).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Maravilloso-Mundo-de-Valores-6-(5to).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Maravilloso-Mundo-de-Valores-6-(5to).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Maravilloso-Mundo-de-Valores-7-(6to).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Maravilloso-Mundo-de-Valores-7-(6to).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Maria-Garcia-Esperon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Marialuz-Albuja-Bayas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Matematica-con-Colorin-Colorado-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Matematica-con-Colorin-Colorado-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Matematica-con-Colorin-Colorado-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Matematica-con-Colorin-Colorado-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Matematica-con-Colorin-Colorado-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Matematica-con-Colorin-Colorado-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Mi-Pais-Creativo-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Mi-Pais-Creativo-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Mi-Pais-Creativo-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Mi-Pais-Creativo-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Mi-Pais-Creativo-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Mi-Pais-Creativo-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Mi-Pais-en-Valores-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Mi-Pais-en-Valores-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Mi-Pais-en-Valores-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Mi-Pais-en-Valores-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Mi-Pais-en-Valores-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Mi-Pais-en-Valores-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Modesto-Ponce-Maldonado.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/NANCY-CRESPO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/NIKOLAI-GOGOL.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Novela-Grafica" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/OSCAR-WILDE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/PATRICIA-MOLINA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/RABINDRANATH-TAGORE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/RAMON-JIMENEZ.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/RAUL-VALLEJO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/RICARDO-GUIRALDES.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ROBERT-LOUIS-ESTIBENSON.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ROBERT-LOUIS-STEVENSON.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/ROSALIA-ARTEAGA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Raquel-M.-Barthe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Raymundo-Zambrano-y-Grace-Macias.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Rebeca-Murga-y-Lorenzo-Lunar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Religion-y-Vida-2-(1ro).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Religion-y-Vida-2-(1ro).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Religion-y-Vida-3-(2do).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Religion-y-Vida-3-(2do).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Religion-y-Vida-4-(3ro).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Religion-y-Vida-4-(3ro).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Religion-y-Vida-5-(4to).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Religion-y-Vida-5-(4to).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Religion-y-Vida-6-(5to).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Religion-y-Vida-6-(5to).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Religion-y-Vida-7-(6to).html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Religion-y-Vida-7-(6to).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Ricardo-Alcantara.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Rosalia-Arteaga-Serrano.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Ruben-Silva.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/SELECCION-Y-ADAPTACION-DE-JAIME-PENA-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/SELMA-LAGERLOF.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/SERAFIN-CORDERO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/SILVIA-BRAUN.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/SOFOCLES.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Sandra-Comino.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Seve-Calleja.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Solange-Viteri.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Travesias-Informaticas-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Travesias-Informaticas-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Travesias-Informaticas-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Travesias-Informaticas-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Travesias-Informaticas-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Travesias-Informaticas-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Travesias-Informaticas-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Travesias-Informaticas-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Travesias-Informaticas-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Travesias-Informaticas-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Travesias-Informaticas-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Travesias-Informaticas-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Travesias-Informaticas-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Travesias-Informaticas-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Travesias-Informaticas-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Travesias-Informaticas-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Travesias-Informaticas-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Travesias-Informaticas-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Trazos-y-Letras-Cursiva-c-Colorin-1-.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Trazos-y-Letras-Cursiva-c-Colorin-1-.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Trazos-y-Letras-Cursiva-c-Colorin-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Trazos-y-Letras-Cursiva-c-Colorin-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Trazos-y-Letras-Cursiva-c-Colorin-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Trazos-y-Letras-Cursiva-c-Colorin-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Trazos-y-Letras-Script-1-.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Trazos-y-Letras-Script-1-.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Trazos-y-Letras-Script-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Trazos-y-Letras-Script-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Trazos-y-letras-Script-Inicial.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/Trazos-y-letras-Script-Inicial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/VARIOS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/VERSION-DE-DON-PEDRO-SALINAS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/VINIVIO-LEON-MANCHENO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/VIRGINIA-WOOLF.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/VIVIANA-CORDERO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Varias-autoras.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Varios-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/WILLIAM-SHAKEASPEARE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/Zofia-Beszczynska.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sign-in-modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign-in-modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/track-order.html" beforeDir="false" afterPath="$PROJECT_DIR$/track-order.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +386,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Zvd9HtAAtstlo51LtmHf31KZ4I" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -52,17 +419,34 @@
       <workItem from="1586038283625" duration="3089000" />
       <workItem from="1586297721847" duration="758000" />
       <workItem from="1586402811641" duration="691000" />
+      <workItem from="1586468374531" duration="113000" />
+      <workItem from="1586470343201" duration="2068000" />
+      <workItem from="1586482308926" duration="599000" />
+      <workItem from="1586492419865" duration="663000" />
+      <workItem from="1586494868672" duration="5686000" />
+      <workItem from="1586726811672" duration="32000" />
+      <workItem from="1586726857045" duration="2258000" />
+      <workItem from="1586897558372" duration="379000" />
+      <workItem from="1586897950059" duration="7955000" />
+      <workItem from="1586935618709" duration="3423000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="134" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585724507895">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
     <state x="134" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.768@0.0.1360.768" timestamp="1585724507895" />
+    <state x="360" y="120" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586494621894">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="360" y="120" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1360.768@0.0.1360.768" timestamp="1586494621894" />
     <state x="410" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585727307558">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
@@ -71,5 +455,9 @@
       <screen x="0" y="0" width="1360" height="768" />
     </state>
     <state x="181" y="26" key="SettingsEditor/0.0.1360.768@0.0.1360.768" timestamp="1585724432345" />
+    <state x="386" y="73" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586898706560">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="386" y="73" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1360.768@0.0.1360.768" timestamp="1586898706560" />
   </component>
 </project>
