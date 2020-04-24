@@ -1,0 +1,622 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=1100px,user-scalable=yes"/>
+<title>LANGUAGE WORLD</title>
+<link rel="stylesheet" type="text/css" href="/css/common.css"/>
+<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="/css/board.css"/>
+<script src="/js/core.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.2.0/ZeroClipboard.min.js"></script>
+<script src="/js/base.js"></script>
+<!--[if lt IE 9]>
+<script src="./js/html5shiv.js"></script>
+<script src="./js/IE9.js"></script>
+<![endif]-->
+<script src="/orangeBoard/scripts/web.util.js"></script>
+
+</head>
+
+
+<body class="sub">
+
+<!-- WRAP -->
+<div id="wrap">
+	<!-- TOP -->
+	<header id="top">
+		<div class="inner">
+
+			
+			<h1 class="logo"><a href="/"><img src="./images/logo.gif" alt="LANGUAGE WORLD"></a></h1>
+			
+			<form name="searchform" id="searchform" method="get" action="search_list.asp">
+				<!-- 검색 -->
+				<div class="search">
+					<div class="sel-box">
+						<span class="sel-txt">ALL</span>
+						<select class="sel-op" name="searchCategory" id="searchCategory">
+							<option value="">ALL</option>
+							<option value="P" >PRODUCT</option>
+							<option value="R" >RESOURCE&SAMPLE</option>
+						</select>
+					</div>
+					<input type="text" class="txt" name="searchText" id="searchText" value="" />
+					<input type="image" id="btnimage" class="btn" alt="검색" src="./images/btn-search.gif">
+					<!--<a href="#" class="close">X</a>-->
+				</div>
+			</form>
+
+<script type="text/javascript">
+var productUrl = "/product_ajax.asp";
+
+$(document).ready(function() {
+
+		$('.search .txt').on({
+		'keyup' : function(){
+			
+			if ($("#searchText").val().length > 1)
+			{
+				//ajax 삽입
+				var param = { productname : $("#searchText").val(), category : $("#searchCategory option:selected" ).val()  }
+					$('.search .word').remove();
+
+					webUtil.AjaxCall(productUrl, param, function (data) {
+						$(data).find("item").each(function(){
+							$('.search .btn').after($("<ul/>").addClass('word'));
+
+							PRODUCT_NAME = $(this).find("PRODUCT_NAME").text();
+							if (PRODUCT_NAME != "") {
+								$('.word').append($("<li/>").html("<span onclick=javascript:focuson1('" + PRODUCT_NAME.replace(/\s/g,'|') + "');>" + PRODUCT_NAME + "</span>"));	
+							}
+
+						});
+					}, Faild, false);
+
+					$('.search').addClass('active');
+				}
+				else {
+					$('.search .word').remove();
+				}
+			}
+		});
+
+		$('.search .close').on({
+			'click' : function(){
+				$('.search').removeClass('active');
+				return false;
+			}
+		});
+});
+
+function focuson1(val) {
+	$('.search .txt').val(replaceAll(val,"|"," ")).focus();
+	$('.search').removeClass('active');
+	$("#btnimage").trigger('click');
+}
+
+function replaceAll(str, searchStr, replaceStr) {
+    return str.split(searchStr).join(replaceStr);
+}
+</script>
+			<!-- //검색 -->
+
+			<!-- GNB -->
+						<nav id="nav">
+				<ul class="gnb">
+					<li class="gnb1 ">
+						<a href="./sub11.asp">PRODUCT</a>
+						<ul>
+				
+					<li ><a href="./sub11.asp?category=Course Book">Course Book</a></li>
+				
+					<li ><a href="./sub11.asp?category=Phonics">Phonics</a></li>
+				
+					<li ><a href="./sub11.asp?category=Reading">Reading</a></li>
+				
+					<li ><a href="./sub11.asp?category=Writing">Writing</a></li>
+				
+					<li ><a href="./sub11.asp?category=Speaking">Speaking</a></li>
+				
+					<li ><a href="./sub11.asp?category=Grammar">Grammar</a></li>
+				
+					<li ><a href="./sub11.asp?category=Listening">Listening</a></li>
+				
+					<li ><a href="./sub11.asp?category=Vocabulary">Vocabulary</a></li>
+				
+					<li ><a href="./sub11.asp?category=Leveled Readers">Leveled Readers</a></li>
+				
+					<li ><a href="./sub11.asp?category=Kindergarten">Kindergarten</a></li>
+				
+					<li ><a href="./sub11.asp?category=Chapter Books">Chapter Books</a></li>
+				
+						</ul>
+					</li>
+					<li class="gnb2 ">
+						<a href="./sub21.asp">e-LEARNING</a>
+						<ul>
+							<li ><a href="./sub21.asp">e-Super Star</a></li>
+						</ul>
+					</li>
+					<li class="gnb3 ">
+						<a href="./sub31.asp">RESOURCE&amp;SAMPLE</a>
+						<ul>
+				
+					<li ><a href="./sub31.asp?category=Course Book">Course Book</a></li>
+				
+					<li ><a href="./sub31.asp?category=Phonics">Phonics</a></li>
+				
+					<li ><a href="./sub31.asp?category=Reading">Reading</a></li>
+				
+					<li ><a href="./sub31.asp?category=Writing">Writing</a></li>
+				
+					<li ><a href="./sub31.asp?category=Speaking">Speaking</a></li>
+				
+					<li ><a href="./sub31.asp?category=Grammar">Grammar</a></li>
+				
+					<li ><a href="./sub31.asp?category=Listening">Listening</a></li>
+				
+					<li ><a href="./sub31.asp?category=Vocabulary">Vocabulary</a></li>
+				
+					<li ><a href="./sub31.asp?category=Leveled Readers">Leveled Readers</a></li>
+				
+					<li ><a href="./sub31.asp?category=Kindergarten">Kindergarten</a></li>
+				
+					<li ><a href="./sub31.asp?category=Chapter Books">Chapter Books</a></li>
+				
+						</ul>
+					</li>
+					<li class="gnb7 ">
+						<a href="./sub71.asp">HOME LEARNING</a>
+						<ul>
+							<li ><a href="./sub71.asp?category=SS">Super Star</a></li>
+							<li ><a href="./sub71.asp?category=LST">Little Story Town</a></li>
+						</ul>
+					</li>
+					<!-- CD&DOWNLOAD
+					<li class="gnb5 ">
+						<a href="./sub51.asp">CD&nbsp;DOWNLOAD</a>
+						<ul>
+							<li ><a href="./sub51.asp?category=Grammar Cue">Grammar Cue</a></li>
+							<li ><a href="./sub51.asp?category=Interactive Science">Interactive Science</a></li>
+						</ul>
+					</li>
+					// CD&DOWNLOAD -->
+					<li class="gnb4 ">
+						<a href="./sub41.asp">ABOUT US</a>
+						<ul>
+							<li><a href="./sub41.asp">Introduction</a></li>
+							<li><a href="./sub41.asp#conferences">Conferences</a></li>
+							<li><a href="./sub41.asp#international">International</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<!-- //GNB -->
+
+		</div>
+		<div class="bg"></div>
+	</header>
+	<!-- //TOP -->
+	<!-- SUB -->
+
+	<section id="sub">
+		<h2 class="title">Course Book</h2>
+		<div class="top">
+			<a href="/sub11.asp?category=Course Book&plevel=0" class="abtn"><img src="./images/ico-prev.gif" alt="ICON"> LIST</a>
+			<div class="nav">HOME <em>&gt;</em> PRODUCT <em>&gt;</em> <strong>Course Book</strong></div>
+		</div>
+
+		<!-- CONTENT -->
+		<div id="content">
+
+	
+			<!-- LIST -->
+			<div class="view-book">
+
+				<div class="atop">
+					<div class="img"><img src="/data/product/2015-12-22_YH5QVQIFPN.jpg" width="200" height="252"/></div>
+					<div class="txt">
+						<h4><a href="#">Super Star Workbook 4</a></h4>
+						<ul class="file">
+							
+								<a href="http://data.lwbooks.co.kr/resource/super_star.zip" target="_blank">
+								
+								<li class="file4">
+									<span><img src="./images/ico-all.gif" alt=""></span>
+									<em>All</em>
+								</li>
+								</a>
+							
+								<a href="http://dn9.eltown.co.kr/lwfile/super_star/ss_wb4.pdf" target="_blank">
+								
+								<li class="file1">
+									<span><img src="./images/ico-pdf.gif" alt=""></span>
+									<em>Preview</em>
+								</li>
+								</a>
+							
+								<a href="#">
+								
+
+								<li class="file2">
+									<span><img src="./images/ico-cd.gif" alt=""></span>
+									<em>Digital CD</em>
+								</li>
+								</a>
+							
+								<a href="https://www.youtube.com/watch?v=e2cN_zrbgLI" target="_blank">
+								
+
+								<li class="file3">
+									<span><img src="./images/ico-video.gif" alt=""></span>
+									<em>Video</em>
+								</li>
+								</a>
+							
+						</ul>
+						<!-- <dl>
+							<dt>Publisher</dt>
+							<dd>: Super Star is a six-level primary English course designed to elevate young learners’ natural interests and enthusiasm in English learning. </dd>
+						</dl> -->
+						<dl>
+							<dt>Level</dt>
+							<dd>: Kindergarten to Upper Primary (A1-A2)</dd>
+						</dl>
+						<dl>
+							<dt>Product Details</dt>
+							<dd>: 75pages / Full Color / 220*280mm</dd>
+						</dl>
+						<dl>
+							<dt>Components</dt>
+							<dd>: Workbook</dd>
+						</dl>
+
+						<div class="ico-down">							
+							
+									<a href="javascript:;" onclick="fncDownCnt('121','Super Star Workbook 4','Teacher Tool Sampler','','Y', 'http://data.lwbooks.co.kr/resource/super_star/Level 4/Super Star 4_Teacher Tool sample.zip' )" class="ico1 active">Teacher Tool<br/>Sampler</a>
+							
+									<a href="javascript:;" onclick="fncDownCnt('121','Super Star Workbook 4','Syllabus','','Y', 'http://data.lwbooks.co.kr/resource/super_star/Level 4/Super Star 4 Syllabus.xls' )" class="ico2 active">Syllabus</a>
+
+							
+									<a href="javascript:;" onclick="fncDownCnt('121','Super Star Workbook 4','Test','Superstar_Level4_Test&Answer Key.zip','N', '' )" class="ico3 active">Test</a>
+							
+									<a href="javascript:;" onclick="fncDownCnt('121','Super Star Workbook 4','Flash Cards','','Y', 'http://data.lwbooks.co.kr/resource/super_star/Level 4/Super Star 4 Flashcards.pdf' )" class="ico4 active">Flash<br/>Cards</a>
+							
+<!--
+							
+-->
+							
+									<a href="javascript:;" onclick="fncDownCnt('121','Super Star Workbook 4','Others','','Y', 'http://data.lwbooks.co.kr/resource/super_star/Level 4/Super Star 4 Scope & Sequence.pdf' )" class="ico8 active">Others</a>
+							
+						</div>
+					</div>
+
+				</div>
+
+				<div class="box">
+					<div class="title">
+						<h4>&gt; FEATURES</h4>
+					</div>
+					<div class="area features">
+						<p><span style="color:rgb(175, 184, 29)"><strong><span style="font-size:20px">Be the English Superstar!</span></strong></span><br />
+<span style="color:rgb(105, 105, 105)"><span style="font-size:16px"><strong>Excellence</strong> through powerful interactions in classroom</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:rgb(105, 105, 105)"><span style="font-size:16px"><strong>Super Star</strong> is a six-level primary English course designed to elevate young learners&rsquo; natural interests and enthusiasm in English learning.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:rgb(105, 105, 105)"><span style="font-size:16px"><strong>Key Features:</strong><br />
+- Fundamental English conversation, basic vocabulary, and grammar patterns<br />
+- Dynamic songs and chants with dance<br />
+- Attractive illustrations and real photos<br />
+- Lively and entertaining characters<br />
+- Engaging activities and fun-packed games<br />
+- Phonics practices with simple and authentic stories<br />
+- Unit &amp; Progress tests</span></span></p>
+
+					</div>
+				
+				</div>
+
+				<div class="box preview">
+					<div class="title">
+						<h4>&gt; PREVIEW</h4>
+					</div>
+					<div class="area">
+						<div class="big">
+							
+								<img src="/data/product/2015-12-22_MK8P11NYYQ.jpg" width="816" height="574"/>
+							
+							<a href="#" class="prev btn">PREV</a>
+							<a href="#" class="next btn">NEXT</a>
+						</div>
+						<div class="thm">
+							
+							<a href="/data/product/2015-12-22_MK8P11NYYQ.jpg" class="btn active"><img src="/data/product/2015-12-22_MK8P11NYYQ.jpg" alt="이미지명" width="181" height="127"/></a>
+							
+							<a href="/data/product/2015-12-22_4QDEAK2284.jpg" class="btn"><img src="/data/product/2015-12-22_4QDEAK2284.jpg" alt="이미지명" width="181" height="127"/></a>
+							
+							<a href="/data/product/2015-12-22_D8I0QA7SAG.jpg" class="btn"><img src="/data/product/2015-12-22_D8I0QA7SAG.jpg" alt="이미지명" width="181" height="127"/></a>
+							
+							<a href="/data/product/2015-12-22_JHFMK5EZRT.jpg" class="btn"><img src="/data/product/2015-12-22_JHFMK5EZRT.jpg" alt="이미지명" width="181" height="127"/></a>
+							
+							<!--
+							<a href="http://placehold.it/816x574/f3f3f3/&text=2" class="btn"><img src="http://placehold.it/181x127/f3f3f3" alt="이미지명"/></a>
+							<a href="http://placehold.it/816x574/f3f3f3/&text=3" class="btn"><img src="http://placehold.it/181x127/f3f3f3" alt="이미지명"/></a>
+							<a href="http://placehold.it/816x574/f3f3f3/&text=4" class="btn"><img src="http://placehold.it/181x127/f3f3f3" alt="이미지명"/></a>
+							-->
+						</div>
+					</div>
+				</div>
+<script>
+preview.init();//이미지 뷰
+
+function digtalcdPopup(val) {
+	window.open(val, "cdPopup", "width=1024,height=768");
+}
+
+function fncDownCnt(pSeq, pName, dKind, dName, linkYN, url){
+	if(dName == "" && url =="")
+	{
+		alert("No Data");
+		return false;
+	}
+	if (linkYN != "Y"){
+		url = "/data/product/"+dName; 
+	}
+	$.ajax({
+		type:"post",
+		url:"ajax_down_count.asp", 
+		data: { pSeq: pSeq, pName:pName, dKind:dKind, dName:url },
+		success : function (data){
+			if (linkYN == "Y"){
+				window.open(url);
+			}else{
+				if (dName.indexOf(".pdf") != -1){
+					window.open(url);
+				}
+				else{
+					location.href=url;
+				}
+			}
+		},
+		error:function(response, textStatus, errThrown){
+			alert("response : " + response.status +"\nError Msg : " + response.responseText + "\nError : " + textStatus + "\nerrorThrown: " + errThrown);
+		}
+	});
+}
+
+</script>
+				<div class="box series">
+					<div class="title">
+						<h4>&gt; PRODUCT PACKAGE</h4>
+						<a href="javascript:;;" class="abtn more1">MORE</a>
+					</div>
+					<div class="area">
+				
+						<article class="nomar"><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=129&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_HWNZ1L0WF5.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=129&category=Course Book&plevel=0">Super Star Student Book 4</a></dt>
+								<dd></dd>
+							</dl>
+						</article>
+					
+						<article ><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=111&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_ANYB8EE9TK.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=111&category=Course Book&plevel=0">Super Star Teacher´s Guide 4</a></dt>
+								<dd></dd>
+							</dl>
+						</article>
+					
+					</div>
+				</div>
+
+				<div class="box series">
+					<div class="title">
+						<h4>&gt; RELATED SERIES</h4>
+						<a href="javascript:;;" class="abtn more2">MORE</a>
+					</div>
+					<div class="area">
+
+				
+						<article class="nomar"><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=132&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_OZCV7H0NU2.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=132&category=Course Book&plevel=0">Super Star Student Book 1</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					
+						<article ><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=131&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_XZ53QCZ4BU.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=131&category=Course Book&plevel=0">Super Star Student Book 2</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					
+						<article ><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=130&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_KJ70P5HXW3.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=130&category=Course Book&plevel=0">Super Star Student Book 3</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					
+						<article ><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=129&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_HWNZ1L0WF5.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=129&category=Course Book&plevel=0">Super Star Student Book 4</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					
+						<article ><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=128&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_2WN0SQAV45.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=128&category=Course Book&plevel=0">Super Star Student Book 5</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					
+						<article ><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=127&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_U6ZHXOERRE.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=127&category=Course Book&plevel=0">Super Star Student Book 6</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					<div id="non2">
+						<article class="nomar"><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=116&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_1BFL70PSR3.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=116&category=Course Book&plevel=0">Super Star Teacher´s Guide 1</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					
+						<article ><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=115&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_ACUS9YNPYV.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=115&category=Course Book&plevel=0">Super Star Teacher´s Guide 2</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					
+						<article ><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=114&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_JPIO182RQN.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=114&category=Course Book&plevel=0">Super Star Teacher´s Guide 3</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					
+						<article ><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=111&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_ANYB8EE9TK.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=111&category=Course Book&plevel=0">Super Star Teacher´s Guide 4</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					
+						<article ><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=110&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_7X6H69KBS5.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=110&category=Course Book&plevel=0">Super Star Teacher´s Guide 5</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					
+						<article ><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=108&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_7UOGYWWR6W.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=108&category=Course Book&plevel=0">Super Star Teacher´s Guide 6</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					
+						<article class="nomar"><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=126&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_3WGBS2BPSS.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=126&category=Course Book&plevel=0">Super Star Workbook 1</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					
+						<article ><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=125&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_SOBTTD5UFR.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=125&category=Course Book&plevel=0">Super Star Workbook 2</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					
+						<article ><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=123&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_GK3FCPKIRM.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=123&category=Course Book&plevel=0">Super Star Workbook 3</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					
+						<article ><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=119&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_19L0E7XQ3M.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=119&category=Course Book&plevel=0">Super Star Workbook 5</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					
+						<article ><!-- 6개마다 클래스 nomar 추가 -->
+							<div class="img"><a href="/sub11_view.asp?seq=118&category=Course Book&plevel=0"><img src="/data/product/thum_2015-12-22_QQLSPAK38Q.jpg" width="135" height="170"/></a></div>
+							<dl>
+								<dt><a href="/sub11_view.asp?seq=118&category=Course Book&plevel=0">Super Star Workbook 6</a></dt>
+								<dd>
+								</dd>
+							</dl>
+						</article>
+					</div>
+					</div>
+			</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#non1').hide();
+		$('#non2').hide();
+
+		$('.more1').bind('click', function() {
+			$('#non1').show();
+		});
+
+		$('.more2').bind('click', function() {
+			$('#non2').show();
+		});
+
+	});
+</script>
+			</div>
+			<!-- //LIST -->
+
+		</div>
+		<!-- //CONTENT -->
+
+	</section>
+	<!-- //SUB -->
+
+	<!-- FOOTER -->
+	<footer id="foot">
+		<div class="copy">
+			Copyright &copy; 2015 Language World Co., Ltd All rights reserved.
+		</div>
+	</footer>
+	<!-- //FOOTER -->
+
+</div>
+<!-- //WRAP -->
+
+</body>
+</html>
+
